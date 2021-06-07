@@ -8,6 +8,7 @@ public class Application {
 		List<Account> accounts = Account.createAccounts(numAccounts);
 		for(int i=0;i<numAccounts;i++) {
 			System.out.println(accounts.get(i));
+			System.out.println("Hello Java");
 		}
 
 		
